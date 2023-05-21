@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444219435154",
+    "project_id": "trainingkotlin-6101a",
+    "storage_bucket": "trainingkotlin-6101a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444219435154:android:5f4b0dd2b4b6dbe0325e4b",
+        "android_client_info": {
+          "package_name": "com.bss.firebase_with_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444219435154-jebs5kus92nhq400oc0dvo3gk3m9vb40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4EX7Oc-GfTG_O0rcxmejFOHnENO-4pVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444219435154-jebs5kus92nhq400oc0dvo3gk3m9vb40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
