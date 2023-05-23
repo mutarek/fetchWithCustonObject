@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             val name = binding.nameEt.text.toString()
             val number = binding.numberET.text.toString()
             firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener {
-                addDataToFirebase(it, email, number.toInt(), name)
+                addDataToFirebase(it, email, number, name)
 
             }.addOnFailureListener {
                 Toast.makeText(this, it.localizedMessage, Toast.LENGTH_SHORT).show()
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
     private fun addDataToFirebase(
         it: Task<AuthResult>,
         email: String,
-        number: Number,
+        number: String,
         name: String
     ) {
         val model = MyModel(it.result.user?.uid.toString(), name, email, number.toString())

@@ -7,11 +7,16 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
-    <TextView
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/progressBar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello world"
-        android:textSize="45sp"
-        android:id="@+id/hello"/>
-
+        android:id="@+id/mView"
+        tools:listitem="@layout/productui"/>
 </LinearLayout>
